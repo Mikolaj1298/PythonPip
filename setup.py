@@ -8,7 +8,7 @@ setup(
     description='AZON Package',
     long_description=open('README.md').read(),
     install_requires=['requests'],
-    url='https://github.com/radosz99/azon-api-library',
+    url='https://github.com/Mikolaj1298/PythonPip',
     author='Mikołaj Kamiński',
     author_email='241388@student.pwr.edu.pl'
 )
