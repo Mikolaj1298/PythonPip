@@ -9,7 +9,6 @@ class Manager:
     def test(self):
         return "It actually test"
 
-
 def get_author(entries, apiKey):
     try:
         response = requests.get('https://api.e-science.pl/api/azon/authors/entries/' + str(entries) + '/', headers={
