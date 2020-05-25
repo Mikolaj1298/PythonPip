@@ -8,6 +8,7 @@ from requests.exceptions import HTTPError
 class Manager:
     def test(self):
         return "It actually test"
+    
 
 def get_author(entries, apiKey):
     try:
@@ -64,4 +65,4 @@ def get_page(authorPk, apiKey, page):
         return resource_list
     except HTTPError as http_err:
         print('HTTP error')
-    
+

@@ -28,3 +28,5 @@ class Resource:
         print(self.title)
         print(self.authors)
     
+
+    
