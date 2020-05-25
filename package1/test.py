@@ -1,4 +1,4 @@
-import api_service
+from package1 import api_service
 
 
 res = api_service.get_author(3,"xhADh8FO4czFdIeHo8UIsbegTWeTPQSLeUUGVh6E")
