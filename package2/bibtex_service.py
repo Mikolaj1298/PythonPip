@@ -6,8 +6,8 @@ def save_bibtex(bibtexes):
                 getBibtex(item) + '\n')
 
 def getBibtex(item):
-    bib = f'@author{{{self.pk},\n  author =\t"{self.authors}", \
-        \n  title =\t"{self.title}",\n'
+    bib = f'@author{{{item.pk},\n  author =\t"{item.authors}", \
+        \n  title =\t"{item.title}",\n'
     bib = bib[0:len(bib)-1]+'\n}\n'
     return bib
 
